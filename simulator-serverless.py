@@ -9,7 +9,7 @@ import numpy
 from configuration import *  
 
 ARRIVAL_RATE = 1/ARRIVAL_RATE
-ARRIVAL_RATE *= 3
+ARRIVAL_RATE *= 8
 MAX_RATE = max(ARRIVAL_RATE)
 
 SERVICE_TIME_SUM = 0.0

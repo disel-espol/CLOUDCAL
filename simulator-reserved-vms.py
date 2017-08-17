@@ -8,7 +8,7 @@ import numpy
 from configuration import *  
 
 ARRIVAL_RATE = 1/ARRIVAL_RATE
-ARRIVAL_RATE *= 3
+ARRIVAL_RATE *= 8
 MAX_RATE = max(ARRIVAL_RATE)
 
 SERVICE_TIME_SUM = 0.0
@@ -122,7 +122,7 @@ print('Average Latency: %7.4f' % numpy.average(latency))
 print('90th Percentile Latency: %7.4f' % numpy.percentile(latency,90))
 print('99th Percentile Latency: %7.4f' % numpy.percentile(latency,99))
 print('Required Virtual Machines: %d' % reserved_vms)
-print('Yearly cost: %7.4f' % (365*24*reserved_vms*VM_HOURLY_COST))
+print('Yearly cost: %7.4f' % (365*24*reserved_vms*VM_HOURLY_COST_RESERVED))
 print('=====================')
 
 ## Print Latencies  - ENABLE ONLY FOR DEBUG

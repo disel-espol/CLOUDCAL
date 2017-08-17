@@ -8,7 +8,7 @@ import numpy
 from configuration import *  
 
 ARRIVAL_RATE = 1/ARRIVAL_RATE
-ARRIVAL_RATE *= 3
+ARRIVAL_RATE *= 8
 MAX_RATE = max(ARRIVAL_RATE)
 
 SERVICE_TIME_SUM = 0.0
@@ -129,7 +129,7 @@ print('Required Virtual Machines per hour slot:')
 print(REQUIRED_VMS)
 yearly_cost = 0
 for required_vms_per_hour in REQUIRED_VMS:
-    yearly_cost += 365*required_vms_per_hour*VM_HOURLY_COST
+    yearly_cost += 365*required_vms_per_hour*VM_HOURLY_COST_ONDEMAND
 print('Yearly cost: %7.4f' % (yearly_cost))
 print('=====================')
 
