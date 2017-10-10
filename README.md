@@ -15,3 +15,6 @@ simulator-ondemand-vms.py
 simulator-reserved-vms.py
 simulator-serverless.py
 ```
+
+## Acknowledgements
+This work was possible thanks to the Amazon Web Services Cloud Credits for Research program.
