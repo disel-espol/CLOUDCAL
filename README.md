@@ -17,4 +17,5 @@ simulator-serverless.py
 ```
 
 ## Acknowledgements
-This work was possible thanks to the Amazon Web Services Cloud Credits for Research program.
+- This research was funded through an Unrestricted Gift from Microsoft. 
+- This work was possible thanks to the Amazon Web Services Cloud Credits for Research program.
