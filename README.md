@@ -2,7 +2,7 @@
 Software tool to estimate yearly cloud computing costs for different pricing models: reserved VMs, on-demand VMs, and serverless computing.
 
 ## Configurations
-Configuratios for simulations are includen in file:
+Configurations for simulations are includen in file:
 ```
 configuration.py
 ```
